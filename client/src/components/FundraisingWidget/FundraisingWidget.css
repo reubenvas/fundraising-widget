@@ -1,0 +1,91 @@
+/* Tooltip */
+
+.tooltip {
+    color: #FFF;
+    background-color: #424242;
+    padding: 10px 0;
+    border-radius: 4px;
+    width: 250px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  /* Box frame */
+
+  .boxFrame {
+    width: 250px;
+    border: 1px solid #EAEAEA;
+    text-align: left;
+  }
+
+  .boxFrame_content {
+    margin: 10px;
+  }
+
+  /* Progress bar */
+
+  .progressBar_container {
+    position: relative;
+    height: 12px;
+    border-bottom: 1px solid #EAEAEA;
+  }
+
+  .progressBar_bar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 75%;
+  }
+
+  /* Notification */
+
+  .notification {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+
+  .notification a {
+    color: #000;
+  }
+
+  .notification-success {
+    border-color: #1CBC2C;
+    background-color: #dff0d8;
+  }
+
+  /* Error message */
+
+  .error-message {
+    background-color: #fce4e4;
+    border: 1px solid #fcc2c3;
+    text-align: center;
+    margin: 12px 0;
+    padding: 2px 0;
+    transition: .25s opacity;
+  }
+
+  .error-text {
+      color: #cc0033;
+      font-weight: bold;
+      text-shadow: 1px 1px rgba(250,250,250,.3);
+  }
+
+  /* Other */
+
+  input[type="text"] {
+    padding: 11px;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+    margin-right: 3px;
+  }
+
+  button, input[type="submit"] {
+    padding: 12px;
+    background-color: #1CBC2C;
+    border: 0px;
+    color: #FFF;
+    border-radius: 5px;
+  }
