@@ -1,7 +1,7 @@
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import { Application } from 'express';
-import {current, deadline, goal} from '../fundraiseConfig.json';
+import { current, deadline, goal } from '../fundraiseConfig.json';
 
 export default (app: Application): void => {
     app.use(bodyParser.json());

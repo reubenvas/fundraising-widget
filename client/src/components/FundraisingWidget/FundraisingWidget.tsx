@@ -22,7 +22,8 @@ const FundraisingWidget = (): React.ReactElement => {
 
     const pledgeSubmit = (e: React.FormEvent<HTMLFormElement>): void => {
         e.preventDefault();
-        if (!(Number(inputEl.current?.value) > 0)) {
+        const inputNumber = Number(inputEl.current?.value);
+        if (!(inputNumber > 0 && inputNumber % 1 === 0)) {
             setIsError(true);
             return;
         }
