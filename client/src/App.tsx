@@ -5,7 +5,7 @@ import Instructions from './components/Instructions';
 
 const App = (): React.ReactElement => (
     <div className="container">
-        <Instructions />
+        {/* <Instructions /> */}
         <FundraisingWidget />
     </div>
 );
