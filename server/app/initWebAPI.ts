@@ -16,7 +16,7 @@ export default (app: Application): void => {
         res.json(deadline);
     });
 
-    app.get('/fundingCurrent', async (req, res) => {
+    app.get('/fundingCurrent', (req, res) => {
         res.json(current);
     });
 };
